@@ -25,6 +25,13 @@
 
     <!-- application styles -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Service worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./service-worker.js');
+        }
+    </script>
     
     <!-- application scripts -->
     <script src="app.js" defer></script>
