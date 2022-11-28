@@ -2,7 +2,6 @@ const cacheName = 'ginko-bus-v1';
 
 const appFiles = [
   '/index.html',
-  '/app.js',
   '/style.css',
   '/icons/favicon.ico',
   '/icons/icon-32.png',
